@@ -1,0 +1,10 @@
+[service]
+collection_interval_secs = 5
+log_file_path = "/Users/g.kozin/projects/programming/RustroverProjects/macos_resource_monitor/metrics.log"
+
+[thresholds]
+cpu_usage_percent = 80.0
+memory_usage_percent = 80.0
+disk_usage_percent = 90.0
+net_in_kbps = 100000.0
+net_out_kbps = 100000.0
