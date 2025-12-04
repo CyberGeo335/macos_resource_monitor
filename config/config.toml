@@ -1,6 +1,6 @@
 [service]
 collection_interval_secs = 5
-log_file_path = "/Users/g.kozin/projects/programming/RustroverProjects/macos_resource_monitor/metrics.log"
+log_file_path = "/RustroverProjects/macos_resource_monitor/metrics.log"
 
 [thresholds]
 cpu_usage_percent = 80.0
